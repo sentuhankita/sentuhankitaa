@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+  background: #fff;
+}
+.hero {
+  background: url('hero.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.hero p {
+  font-size: 1.2em;
+}
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.about, .produk, .cta {
+  padding: 60px 20px;
+  text-align: center;
+}
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product-card {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
